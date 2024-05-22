@@ -1,0 +1,347 @@
+.cart-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d9dedc;
+}
+
+.cart-info {
+  width: 90%;
+  height: 15%;
+  background-color: #d9dedc;
+  margin-left: 30px;
+  padding-top: 55px;
+  border-bottom: 2px black solid;
+}
+
+.cart-info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  color: #000000c2;
+}
+
+.product1 {
+  margin-left: 15px;
+  padding-top: 15px;
+  width: 90%;
+  height: 22%;
+  background-color: #d9dedc;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px #00000014 solid;
+}
+
+.image {
+  background-image: url("../../images/product-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 135px;
+  height: 135px;
+  position: relative;
+  left: 25px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.image:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  position: relative;
+  right: 30px;
+  top: 55px;
+  height: 50px;
+}
+
+.product-price {
+  position: relative;
+  right: 70px;
+  top: 55px;
+  height: 50px;
+  font-size: 14px;
+  color: #000000c4;
+}
+
+.product-quan input {
+  height: 45px;
+  width: 55px;
+  text-align: center;
+  position: relative;
+  right: 60px;
+  top: 35px;
+}
+
+.total-price {
+  position: relative;
+  right: 70px;
+  top: 55px;
+  height: 50px;
+  font-size: 14px;
+  color: #000000c4;
+}
+
+.remove {
+  position: relative;
+  right: 65px;
+  top: 55px;
+  height: 50px;
+}
+
+.product2 {
+  margin-left: 15px;
+  padding-top: 15px;
+  width: 90%;
+  height: 22%;
+  background-color: #d9dedc;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px #00000014 solid;
+}
+
+.image2 {
+  background-image: url("../../images/product-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 135px;
+  height: 135px;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.image2:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-name2 {
+  position: relative;
+  right: 30px;
+  top: 55px;
+  height: 50px;
+}
+
+.product-price2 {
+  position: relative;
+  right: 70px;
+  top: 55px;
+  height: 50px;
+  font-size: 14px;
+  color: #000000c4;
+}
+
+.product-quan2 input {
+  height: 45px;
+  width: 55px;
+  text-align: center;
+  position: relative;
+  right: 60px;
+  top: 35px;
+}
+
+.total-price2 {
+  position: relative;
+  right: 70px;
+  top: 55px;
+  height: 50px;
+  font-size: 14px;
+  color: #000000c4;
+}
+
+.remove2 {
+  position: relative;
+  right: 65px;
+  top: 55px;
+  height: 50px;
+}
+
+.checkout {
+  height: 41%;
+  width: 100%;
+  background-color: #d9dedc;
+  position: relative;
+}
+
+.buttons {
+  width: 500px;
+  height: 80px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 120px;
+}
+
+.buttons .update {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: #2f2f2f;
+  color: #d9dedc;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.update:hover {
+  background-color: white;
+  color: black;
+  border: transparent;
+}
+
+.update:active {
+  background-color: #0b5ed7;
+  color: white;
+  border: transparent;
+}
+
+.buttons .continue {
+  width: 195px;
+  height: 40px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: #2f2f2f;
+  color: #d9dedc;
+  font-weight: bold;
+  margin-left: 220px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.continue:hover {
+  background-color: white;
+  color: black;
+  border: transparent;
+}
+
+.continue:active {
+  background-color: #0b5ed7;
+  color: white;
+  border: transparent;
+}
+
+.coupon {
+  width: 600px;
+  height: 165px;
+  margin-left: 125px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.coupon span {
+  font-size: 14px;
+  position: absolute;
+  bottom: 110px;
+  left: 0;
+  font-weight: 100;
+  color: #00000096;
+}
+
+.coupon input {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  height: 35px;
+  width: 375px;
+  border: #c2c2c2 1px solid;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.coupon .apply {
+  position: absolute;
+  bottom: 55px;
+  right: 60px;
+  width: 145px;
+  height: 40px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: #2f2f2f;
+  color: #d9dedc;
+  font-weight: bold;
+  margin-left: 220px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.apply:hover {
+  background-color: white;
+  color: black;
+  border: transparent;
+}
+
+.apply:active {
+  background-color: #0b5ed7;
+  color: white;
+  border: transparent;
+}
+
+.cart-totals {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  right: 120px;
+  right: 120px;
+  bottom: 10vh;
+}
+
+.cart-totals .cart-tot {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  word-spacing: 2px;
+  border-bottom: 2px #00000012 solid;
+  padding-top: 20px;
+  margin-bottom: 35px;
+}
+
+.cart-totals .sub {
+  width: 350px;
+  height: 35px;
+  font-size: 14px;
+}
+
+.cart-totals .total {
+  width: 350px;
+  height: 35px;
+  font-size: 14px;
+}
+
+.cart-totals span {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+}
+
+.cart-totals .proceed {
+  width: 225px;
+  height: 55px;
+  border-radius: 26px;
+  border: transparent;
+  background-color: #2f2f2f;
+  color: #d9dedc;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  left: 70px;
+  top: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.proceed:hover {
+  background-color: white;
+  color: black;
+  border: transparent;
+}
+
+.proceed:active {
+  background-color: #0b5ed7;
+  color: white;
+  border: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}

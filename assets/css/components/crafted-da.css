@@ -1,0 +1,42 @@
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.par1 {
+  font-family: "Inter", sans-serif;
+  color: #6a6a6a;
+}
+
+.img-da {
+  width: 100%;
+  height: 50%;
+}
+.cl1 {
+  width: 300px;
+}
+
+.sc1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.pr1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+
+.bu {
+  background-color: #333;
+  color: #fff;
+
+  padding: 11px 30px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+}

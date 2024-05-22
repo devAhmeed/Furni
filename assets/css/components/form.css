@@ -1,0 +1,104 @@
+.iconn {
+  line-height: 1.5;
+}
+.icon1 {
+  border-radius: 20%;
+  background-color: #004732;
+  position: absolute;
+  left: 20%;
+  bottom: 80%;
+}
+.pp {
+  position: absolute;
+  left: 25%;
+  bottom: 78%;
+}
+.icon2 {
+  border-radius: 20%;
+  background-color: #004732;
+  position: absolute;
+  left: 40%;
+  bottom: 80%;
+}
+.ppp {
+  position: absolute;
+  left: 45%;
+  bottom: 80%;
+}
+.icon3 {
+  border-radius: 20%;
+  background-color: #004732;
+  position: absolute;
+  left: 60%;
+  bottom: 80%;
+}
+.pppp {
+  position: absolute;
+  left: 140%;
+  bottom: -3%;
+}
+#fist {
+  position: absolute;
+  bottom: 58%;
+  left: 20%;
+  width: 450px;
+  background-color: #ffff;
+  border-color: #ced4da;
+}
+.f {
+  position: absolute;
+  bottom: 67%;
+  left: 20%;
+}
+#fist:hover {
+  border-color: #004732;
+}
+#last {
+  position: absolute;
+  bottom: 58%;
+  left: 52%;
+  width: 450px;
+  background-color: #ffff;
+  border-color: #ced4da;
+}
+.l {
+  position: absolute;
+  bottom: 67%;
+  left: 52%;
+}
+#last:hover {
+  border-color: #004732;
+}
+#emaill {
+  position: absolute;
+  bottom: 45%;
+  left: 20%;
+  width: 942px;
+  background-color: #ffff;
+  border-color: #ced4da;
+}
+#emaill:hover {
+  border-color: #004732;
+}
+.e {
+  position: absolute;
+  bottom: 52%;
+  left: 20%;
+}
+#mm {
+  position: absolute;
+  bottom: 8%;
+  left: 20%;
+  width: 942px;
+  height: 200px;
+  background-color: #ffff;
+  border-color: #ced4da;
+}
+#mm:hover {
+  border-color: #004732;
+}
+.msg {
+  position: absolute;
+  bottom: 37%;
+  left: 20.5%;
+}

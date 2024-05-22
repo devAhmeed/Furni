@@ -1,0 +1,28 @@
+.wcu-section-MMgallery-item {
+  max-width: 100%;
+}
+.wcu-section-MMh5 {
+  text-align: center;
+}
+.wcu-section-MMh6 {
+  font-weight: bold;
+  text-align: center;
+}
+.wcu-section-MMbody {
+  background-color: rgba(226, 223, 223, 0.507);
+}
+.col-3:hover {
+  animation: amy 0.7s alternate 1;
+  transition: bottom 0.4s;
+  position: relative;
+}
+@keyframes amy {
+  from {
+    background-color: rgb(214, 210, 210);
+    bottom: 0px;
+  }
+  to {
+    background-color: rgba(223, 220, 220, 0.733);
+    bottom: 25px;
+  }
+}
